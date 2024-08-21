@@ -2,13 +2,18 @@
 cache/
 out/
 
-# Ignores development broadcast logs
-!/broadcast
-/broadcast/*/31337/
-/broadcast/**/dry-run/
+# Ignores broadcast logs
+broadcast
 
 # Docs
 docs/
 
 # Dotenv file
 .env
+
+# Gas snapshots
+.gas-snapshot
+
+
+.DS_Store
+zkout/
